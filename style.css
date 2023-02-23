@@ -1,0 +1,239 @@
+:root {
+    --amarillo: rgb(187, 255, 0);
+}
+@font-face {
+    font-family: 'Mabry-Pro';
+    src: url('/fonts/MabryPro-Regular.ttf');
+  }
+@font-face {
+    font-family: 'Mabry-Pro-bold';
+    src: url('/fonts/MabryPro-Bold.ttf');
+  }
+@font-face {
+    font-family: 'Akira';
+    src: url('/fonts/Akira.otf');
+  }
+@font-face {
+    font-family: 'Phonk';
+    src: url('/fonts/Phonk.otf');
+  }
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mabry-pro', sans-serif;
+    font-size: 18px;
+    padding: 2rem;   
+
+}
+
+.titulo{
+    margin-bottom: 5rem;
+    width: 17vw;
+    height: 9vh;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
+                -10px 10px 0 0 rgb(187, 255, 0)
+}
+.titulo-text{
+    font-family: 'Phonk';
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.titulo-1{
+    background-color: white;
+    margin-bottom: 5rem;
+    width: 50vw;
+    height: 23vh;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
+                -25px 25px 0 0 rgb(187, 255, 0)
+}
+.titulo-text-1{
+    font-family: 'Phonk';
+    font-weight: bold;
+    font-size: 9rem;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.etiqueta{
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    padding-right: 2rem;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
+    margin-bottom: 2rem;
+}
+.etiqueta p{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.centrado{
+    text-align: center;
+}
+.upper{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bolder;
+}
+
+.etiqueta p span{
+    font-family: 'Mabry-Pro-bold';
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 0;
+}
+
+.etiqueta-1{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 2rem;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
+    margin-bottom: 2rem;
+}
+.etiqueta-1 p{
+    padding: 0rem 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.etiqueta-2{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 8rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 0;
+    margin-bottom: 2rem;
+    border: 5px solid black;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
+}
+
+hr{
+    border: 2px solid black;
+    padding: 0;
+}
+.card-title{
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+.card-content{
+    background-color: var(--amarillo) ;
+    padding: 1rem 1rem;    
+}
+.card-content p{
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.texto{
+    text-align: center;
+}
+.texto p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0;
+}
+.texto p:last-child{
+    font-size: 2rem;
+}
+
+.b-label{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.b-label p{
+    font-family: 'Akira';
+    text-transform: uppercase;
+    font-size: 6rem;
+    
+}
+
+.texto-1 p{
+    font-family: 'Mabry-Pro-bold';
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 0;
+    padding-bottom: 3rem;
+}
+.texto-1 p:last-child{
+    font-family: 'Mabry-Pro';
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-bottom: 0;
+}
+
+.width{
+    width: 100%;
+}
+
+.font-l {
+    font-size: 3rem; 
+}
+.flex{
+    display: flex;
+}
+
+.btn{
+    width: fit-content;
+    background-color: blue;
+    border-radius: 200px;
+    padding: 0.5rem 4rem;
+}
+.btn-text{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Mabry-Pro';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sign{
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    align-items: center;
+    margin: 0 10rem;
+}
+.w-50{
+    width: 50%;
+}
+
+.fondo-negro{
+    background-color: rgb(46, 46, 46);
+    margin: 0 -4rem;
+}
+
+.fw{
+    color: white;
+}
