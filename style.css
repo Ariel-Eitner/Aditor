@@ -1,5 +1,6 @@
 :root {
-    --amarillo: rgb(187, 255, 0);
+    --amarillo: #D4FF00;
+    --azul: #3600FF;
 }
 @font-face {
     font-family: 'Mabry-Pro';
@@ -23,11 +24,13 @@
     box-sizing: border-box;
     font-family: 'Mabry-pro', sans-serif;
     font-size: 18px;
-    padding: 2rem;   
+    padding: 0 2rem;   
+   
 
 }
 
 .titulo{
+    background-color: white;
     margin-bottom: 5rem;
     width: 17vw;
     height: 9vh;
@@ -36,7 +39,7 @@
     justify-content: center;
     align-items: center;    
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
-                -10px 10px 0 0 rgb(187, 255, 0)
+                -10px 10px 0 0 var(--amarillo)
 }
 .titulo-text{
     font-family: 'Phonk';
@@ -54,7 +57,7 @@
     justify-content: center;
     align-items: center;    
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
-                -25px 25px 0 0 rgb(187, 255, 0)
+                -25px 25px 0 0 var(--amarillo)
 }
 .titulo-text-1{
     font-family: 'Phonk';
@@ -70,10 +73,12 @@
     padding: 1rem;
     padding-right: 2rem;
     border: 5px solid black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
     margin-bottom: 2rem;
+    z-index: 2;
 }
 .etiqueta p{
     padding: 1rem 2rem;
@@ -107,6 +112,7 @@
     flex-direction: column;
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
     margin-bottom: 2rem;
+    z-index: 2;
 }
 .etiqueta-1 p{
     padding: 0rem 2rem;
@@ -115,12 +121,15 @@
     font-size: 3rem;
 }
 .etiqueta-2{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
     flex-direction: column;
     align-content: center;
     padding: 8rem 2rem;
     margin-bottom: 2rem;
+}
+.border{
+    border: 3px solid black;
 }
 
 .card{
@@ -138,6 +147,7 @@ hr{
     padding: 0;
 }
 .card-title{
+    background-color: white;
     padding: 0 1rem;
     font-size: 2rem;
 }
@@ -165,7 +175,7 @@ hr{
 }
 
 .b-label{
-    background-color: blue;
+    background-color: var(--azul);
     color: white;
     text-align: center;
     padding: 0;
@@ -205,12 +215,12 @@ hr{
 
 .btn{
     width: fit-content;
-    background-color: blue;
     border-radius: 200px;
+    background-color: white;
     padding: 0.5rem 4rem;
 }
 .btn-text{
-    color: white;
+    color: var(--azul);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Mabry-Pro';
@@ -232,8 +242,37 @@ hr{
 .fondo-negro{
     background-color: rgb(46, 46, 46);
     margin: 0 -4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fw{
     color: white;
+}
+.absolute{
+    position: absolute;
+}
+.contenedor{
+    display: flex;
+    position: relative;
+    margin: 6rem 0;
+    justify-content: center;
+    align-items: center;
+}
+.mt-11{
+    margin-top: 11rem;
+}
+.mt-2{
+    margin: 5rem;
+}
+.banner-1{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+}
+.banner-2{
+    
+    z-index: 0;
 }
