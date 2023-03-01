@@ -24,28 +24,29 @@
     box-sizing: border-box;
     font-family: 'Mabry-pro', sans-serif;
     font-size: 18px;
-    padding: 0 2rem;   
-   
-
 }
 
+.fondo-negro{
+    background-color: rgb(46, 46, 46);
+    margin-bottom: 2rem;
+    height: 75rem;
+}
+.etiqueta-1{
+    background-color: white;
+    border: 5px solid black;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
+    z-index: 2;
+}
 .titulo{
     background-color: white;
-    margin-bottom: 5rem;
-    width: 17vw;
-    height: 9vh;
     border: 5px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+    z-index: 2;
+    /* align-items: center; */
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
-                -10px 10px 0 0 var(--amarillo)
+                -10px 10px 0 0 var(--amarillo);
 }
-.titulo-text{
+.phonk{
     font-family: 'Phonk';
-    font-weight: bold;
-    font-size: 3rem;
-    text-transform: uppercase;
 }
 .titulo-1{
     background-color: white;
@@ -55,7 +56,7 @@
     border: 5px solid black;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
                 -25px 25px 0 0 var(--amarillo)
 }
@@ -85,15 +86,7 @@
     font-size: 2rem;
     font-weight: 600;
 }
-.centrado{
-    text-align: center;
-}
-.upper{
-    text-transform: uppercase;
-}
-.bold{
-    font-weight: bolder;
-}
+
 
 .etiqueta p span{
     font-family: 'Mabry-Pro-bold';
@@ -102,59 +95,36 @@
     padding: 0;
 }
 
-.etiqueta-1{
-    background-color: white;
-    height: fit-content;
-    width: fit-content;
-    padding: 0 2rem;
-    border: 5px solid black;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
-    margin-bottom: 2rem;
-    z-index: 2;
-}
-.etiqueta-1 p{
-    padding: 0rem 2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 3rem;
-}
-.etiqueta-2{
-    /* border: 3px solid black; */
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding: 8rem 2rem;
-    margin-bottom: 2rem;
-}
-.border{
+.borde{
     border: 3px solid black;
 }
 
-.card{
+.etiqueta-3{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 35rem;
     padding: 0;
-    margin-bottom: 2rem;
     border: 5px solid black;
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
+    z-index: 2;
 }
-
-hr{
+.etiqueta-3 h2{
+    margin-bottom: 0;
+}
+.etiqueta-3 hr{
     border: 2px solid black;
     padding: 0;
+    margin: 0;
 }
-.card-title{
+.etiqueta-3-title{
     background-color: white;
     padding: 0 1rem;
     font-size: 2rem;
 }
 
-.card-content{
+.etiqueta-3-content{
     background-color: var(--amarillo) ;
-    padding: 1rem 1rem;    
+    padding: 2rem;
 }
 .card-content p{
     padding: 0;
@@ -162,29 +132,13 @@ hr{
     font-weight: 600;
 }
 
-.texto{
-    text-align: center;
-}
-.texto p{
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding: 0;
-}
-.texto p:last-child{
-    font-size: 2rem;
-}
-
 .b-label{
     background-color: var(--azul);
-    color: white;
-    text-align: center;
-    padding: 0;
 }
-.b-label p{
-    font-family: 'Akira';
-    text-transform: uppercase;
+
+.akira{
+    font-family: 'Akira';    
     font-size: 6rem;
-    
 }
 
 .texto-1 p{
@@ -202,25 +156,30 @@ hr{
     padding-bottom: 0;
 }
 
-.width{
-    width: 100%;
-}
-
-.font-l {
-    font-size: 3rem; 
-}
-.flex{
-    display: flex;
-}
-
-.btn{
+.boton{
     width: fit-content;
-    border-radius: 200px;
+    border-radius: 10px;
     background-color: white;
-    padding: 0.5rem 4rem;
+    padding: 0.2rem 4rem;
+}
+.boton-1{
+    width: fit-content;
+    border-radius: 10px;
+    background-color: var(--azul);
+    padding: 0.2rem 4rem;
+    border: none;
+
 }
 .btn-text{
     color: var(--azul);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Mabry-Pro';
+    font-size: 3rem;
+    font-weight: bold;
+}
+.btn-text-1{
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Mabry-Pro';
@@ -239,14 +198,7 @@ hr{
     width: 50%;
 }
 
-.fondo-negro{
-    background-color: rgb(46, 46, 46);
-    margin: 0 -4rem;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .fw{
     color: white;
@@ -254,25 +206,20 @@ hr{
 .absolute{
     position: absolute;
 }
-.contenedor{
-    display: flex;
-    position: relative;
-    margin: 6rem 0;
-    justify-content: center;
-    align-items: center;
-}
-.mt-11{
-    margin-top: 11rem;
-}
-.mt-2{
-    margin: 5rem;
-}
+
+
 .banner-1{
     z-index: 0;
     position: absolute;
     top: 0;
 }
 .banner-2{
-    
+    top: -5rem;
     z-index: 0;
+}
+.amarillo{
+    background-color: var(--amarillo);
+}
+.offset{
+    /* transform: translateY(40rem); */
 }
