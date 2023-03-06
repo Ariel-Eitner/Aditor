@@ -33,7 +33,7 @@
 }
 .negro{
     background-color: var(--negro);  
-    height: 55rem;  
+    height: 60rem;  
 }
 .amarillo{
     background-color: var(--amarillo);    
@@ -53,32 +53,5 @@
 }
 .akira{
     font-family: 'Akira';    
-    font-size: 5rem;
-}
-.offset-y{
-    transform: translateY(-7rem);
-}
-.offset-y-1{
-    transform: translateY(-13rem);
-}
-.offset-y-2{
-    transform: translateY(-2rem);
-}
-.offset-y-3{
-    transform: translateY(-25.2rem);
-}
-.offset-y-4{
-    transform: translateY(-30.3rem);
-}
-.offset-y-5{
-    transform: translateY(-45rem);
-}
-.offset-y-6{
-    transform: translateY(-44rem);
-}
-.offset-y-7{
-    transform: translateY(-44rem);
-}
-.offset--y{
-    transform: translateY(10rem);
+    font-size: 3rem;
 }
