@@ -2,6 +2,7 @@
     --amarillo: #D4FF00;
     --azul: #3600FF;
     --negro: #2e2e2e;
+    --blanco: #F9F6F4;
 }
 @font-face {
     font-family: 'Mabry-Pro';
@@ -43,6 +44,10 @@
 }
 .azul-txt{
     color:var(--azul)
+}
+.blanco{
+    background-color: var(--blanco);
+    
 }
 .sombra-amarilla{    
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
