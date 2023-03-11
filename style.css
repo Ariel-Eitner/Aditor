@@ -25,7 +25,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Mabry-pro', sans-serif;
-    font-size: 18px;
+    font-size: 18px;    
+}
+body{
+    overflow-x: hidden;
 }
 .etiqueta{    
     border: 5px solid black;
