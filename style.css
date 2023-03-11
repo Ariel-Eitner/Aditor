@@ -1,7 +1,7 @@
 :root {
     --amarillo: #D4FF00;
     --azul: #3600FF;
-    --negro: #2e2e2e;
+    --negro: #282726;
     --blanco: #F9F6F4;
 }
 @font-face {
@@ -51,7 +51,7 @@
 }
 .sombra-amarilla{    
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1),
-                -10px 10px 0 0 var(--amarillo);
+                -10px 13px 0 0 var(--amarillo);
 }
 .phonk{
     font-family: 'Phonk';
@@ -59,4 +59,10 @@
 .akira{
     font-family: 'Akira';    
     font-size: 3rem;
+}
+.combo{
+    margin: 0 auto;
+}
+.redondeado{
+    border-radius: 40px;
 }
