@@ -66,3 +66,7 @@
 .redondeado{
     border-radius: 40px;
 }
+.flecha{
+    position: absolute;
+    right: 0;
+}
