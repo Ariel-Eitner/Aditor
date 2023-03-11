@@ -44,6 +44,7 @@ body{
 }
 .azul{
     background-color: var(--azul);
+    transition:  .5s;
 }
 .azul-txt{
     color:var(--azul)
@@ -72,4 +73,8 @@ body{
 .flecha{
     position: absolute;
     right: 0;
+}
+.azul:hover{
+    background-color: #00aeff;
+    transform: scale(1.2);
 }
