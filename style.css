@@ -23,9 +23,11 @@
 
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Mabry-pro', sans-serif;
     font-size: 18px;    
+    /* border: 1px solid red; */
 }
 body{
     overflow-x: hidden;
@@ -77,4 +79,9 @@ body{
 .azul:hover{
     background-color: #00aeff;
     transform: scale(1.2);
+}
+@media (max-width: 990px) {
+    .negro{
+        height: auto;
+    }
 }
