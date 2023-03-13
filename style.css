@@ -26,7 +26,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mabry-pro', sans-serif;
-    font-size: 18px;    
+    font-size: 18px;   
+    /* border: 1px solid red  */
 }
 html{
     overflow-x: hidden;
