@@ -83,6 +83,12 @@ body{
     background-color: #00aeff;
     transform: scale(1.2);
 }
+.izq{
+    margin-left: 13rem;
+    /* margin-right: 25rem; */
+    padding-right: 20rem;
+    width: 50rem;
+}
 @media (max-width: 990px) {
     .negro{
         height: auto;
@@ -90,4 +96,15 @@ body{
     .akira{
         font-size: 1.5rem;
     }
+    .izq{
+        margin-left: 0;
+        padding-right: 0;
+        width: auto;
+        margin: 0 2rem;
+    }
+}
+
+
+.der{
+    height: 25rem;
 }
